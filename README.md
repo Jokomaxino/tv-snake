@@ -74,7 +74,7 @@
 
 **Procedure**  
 Install the Arduino IDE and copy the contents of libraries folder to your libraries. Wire an Arduino Uno this way:   
-[](images/schematic.png)   
+![](images/schematic.png)   
 
 The default code works for an NTSC TV. If your have a PAL TV, change the line in [tv-snake.ino](snake/tv-snake.ino) that says   
         `TV.begin(NTSC, 120, 96);`  
